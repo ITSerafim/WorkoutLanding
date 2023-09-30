@@ -5,22 +5,22 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
 
-  .footer-item {
-    color: #efede8a6;
-    transition: 1s;
-    cursor: pointer;
+.footer-item {
+  color: #efede8a6;
+  transition: 1s;
+  cursor: pointer;
+}
 
-    &::after {
-      margin-left: 20px;
-      content: "";
-      border: 1px solid #efede8a6;
-    }
+.footer-item::after {
+  margin-left: 20px;
+  content: "";
+  border: 1px solid #efede8a6;
+}
 
-    &:hover {
-      color: #fff;
-    }
-  }
+.footer-item:hover {
+  color: #fff;
 }
 
 @media (min-width: 540px) {
@@ -29,35 +29,30 @@ footer {
   }
 }
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
 }
 
-// Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
 }
 
-// X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
