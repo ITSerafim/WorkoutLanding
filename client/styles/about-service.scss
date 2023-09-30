@@ -1,0 +1,73 @@
+.about-service {
+  h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    color: #efede8a6;
+    margin-bottom: 50px;
+  }
+}
+
+.service-card {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #323443;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  h3 {
+    padding: 30px;
+    background-color: transparent;
+  }
+
+  p {
+    padding: 30px;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 540px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

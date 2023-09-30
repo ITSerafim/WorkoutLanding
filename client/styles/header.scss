@@ -1,0 +1,134 @@
+header {
+  margin-bottom: 350px;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  padding: 50px 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.main-header {
+  margin: 150px 65px;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+
+.mini-workouts {
+  position: absolute;
+  right: 20px;
+  top: 568px;
+  font-size: 20px;
+  background-color: #e6533c;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.mini-programs {
+  position: absolute;
+  right: 20px;
+  top: 365px;
+  font-size: 20px;
+  background-color: #303030;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.mini-exercise {
+  position: absolute;
+  right: 20px;
+  top: 179px;
+  font-size: 20px;
+  background-color: #ef8964;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.description {
+  color: #efede8a6;
+  width: 650px;
+  font-size: 20px;
+}
+
+@media (min-width: 540px) {
+  .container {
+    max-width: 100%;
+  }
+  .main-header {
+    font-size: 40px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .main-header {
+    font-size: 40px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .main-header {
+    font-size: 60px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .main-header {
+    font-size: 80px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .main-header {
+    font-size: 90px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  .main-header {
+    font-size: 120px;
+  }
+}

@@ -1,0 +1,72 @@
+.platform-header {
+  margin-bottom: 100px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.crm-platform {
+  display: flex;
+  align-items: center;
+}
+
+.platform-text {
+  h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  p {
+    width: 75%;
+    font-size: 20px;
+    color: #efede8a6;
+  }
+}
+
+.platform-img {
+  img {
+    width: 700px;
+    // height: 500px;
+  }
+}
+
+@media (min-width: 540px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
