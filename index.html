@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workout Online</title>
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
     <header>
@@ -19,11 +20,6 @@
           </li>
           <li class="navbar-list-item">
             <a href="#crm" class="link">CRM</a>
-          </li>
-          <li class="navbar-list-item">
-            <button class="btn">
-              <a href="./pages/register.html" class="register-link">Регистрация</a>
-            </button>
           </li>
         </ul>
       </nav>
@@ -58,50 +54,7 @@
         следующие возможности:
       </p>
 
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="service-card">
-              <h3>Тренировки</h3>
-              <p>
-                Создавайте, редактируйте, просматривайте, загружайте тренировки.
-              </p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="service-card">
-              <h3>Упражнения</h3>
-              <p>Просматривайте таблицы упражнений и создавайте свои</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="service-card">
-              <h3>Программы</h3>
-              <p>Уже готовой набор тренировок с упражнениями и питанием</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="service-card">
-              <h3>Персональный профиль</h3>
-              <p>Заносити данные антропометрии и отслеживайте свой прогресс</p>
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="service-card">
-              <h3>Онлайн-чат</h3>
-              <p>
-                Поддерживайте общение и делитесь результатами в реальном
-                времени!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      <div id="serviceList" class="service-list"></div>
     </section>
 
     <section class="benifits">
@@ -179,12 +132,12 @@
     <section class="container fast-form" id="form">
       <h2>Форма обратной связи</h2>
       <p>
-        Если у вас возник вопрос, заполните форму ниже и мы постараемся вам помочь. Об ошибках лучше сообщать в чат
-        тех.поддержки (CRM)
+        Если у вас возник вопрос, заполните форму ниже и мы постараемся вам
+        помочь. Об ошибках лучше сообщать в чат тех.поддержки (CRM)
       </p>
 
       <form>
-        <div class="input-select">
+        <div class="input">
           <input type="text" placeholder="Введите имя:" id="name" />
         </div>
         <textarea
@@ -204,10 +157,12 @@
       <span class="footer-item">Пользовательское соглашение</span>
       <span class="footer-item">Политика конфиденциальности</span>
       <span class="footer-item"
-        ><a href="https://vk.com/next_web_team" class="link">Разработка: NextWebTeam  </a></span
+        ><a href="https://vk.com/next_web_team" class="link"
+          >Разработка: NextWebTeam
+        </a></span
       >
     </footer>
 
-    <script type="module" src="/src/main.js"></script>
+    <script src="scripts/service-list.js"></script>
   </body>
 </html>
