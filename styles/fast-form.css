@@ -1,107 +1,54 @@
-.fast-form h2 {
-  display: flex;
-  flex-direction: column;
+.form-title {
   font-size: 40px;
   text-transform: uppercase;
-
-  &::after {
-    content: "";
-    border: 1px solid #efede8a6;
-    opacity: 0.2;
-    margin: 30px 0;
-  }
 }
 
-.fast-form p {
+.form-description {
   font-size: 20px;
-  color: #efede8a6;
-  margin-bottom: 50px;
+  color: #bbb;
 }
 
-.fast-form form {
-  margin: 0 auto;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-}
-
-.input-select {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.select {
-  appearance: none;
+.form-control {
+  padding: 1rem;
   background-color: transparent;
-  border: none;
-  color: #ef8964;
-  padding: 20px;
-  width: 100%;
-  cursor: pointer;
-  font-size: 20px;
-  outline: none;
-}
-
-.select::-ms-expand {
-  display: none;
-}
-
-.input {
-  width: 100%;
-  padding: 20px;
-  border: 1px solid #ef8964;
+  border: 1px solid #3596fe;
   border-radius: 10px;
   font-size: 20px;
-  color: #ef8964;
+  color: #fff;
 }
 
-.input:focus {
+.form-control:active {
   outline: none !important;
-  border: 1px solid #e6533c;
+  border: 1px solid #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
 }
 
-.input:active {
+.form-control:focus {
   outline: none !important;
-  border: 1px solid #e6533c;
+  border: 1px solid #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
 }
 
-.form-message {
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 20px;
-  font-size: 20px;
+.textarea {
   resize: vertical;
-  border: 1px solid #ef8964;
-  border-radius: 10px;
-  color: #ef8964;
-}
-
-.form-message:focus {
-  outline: none !important;
-  border: 1px solid #e6533c;
-}
-
-.form-message:active {
-  outline: none !important;
-  border: 1px solid #e6533c;
 }
 
 .form-btn {
   text-align: center;
   padding: 20px;
-  margin: 0 auto;
-  color: #efede8a6;
+  align-self: center;
+  color: #bbb;
   width: 25%;
-  border: 1px solid #ef8964;
+  font-size: 18px;
+  border: 1px solid #3596fe;
   border-radius: 5px;
-  background-color: transparent;
   transition: 2s;
 }
 
 .form-btn:hover {
   color: #fff;
-  background-color: #e6533c;
+  background-color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
 }
 
 @media (min-width: 540px) {

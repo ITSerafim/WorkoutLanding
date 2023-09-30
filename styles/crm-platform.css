@@ -18,11 +18,14 @@
 .platform-text p {
   width: 75%;
   font-size: 20px;
-  color: #efede8a6;
+  color: #bbb;
 }
 
 .platform-img img {
   width: 700px;
+  border-radius: 5px;
+  border: 1px solid #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
 }
 
 @media (min-width: 540px) {

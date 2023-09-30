@@ -10,28 +10,24 @@
   text-transform: uppercase;
 }
 
-.navbar-list {
-  display: flex;
-  align-items: center;
-}
-
 .navbar-list-item {
+  font-size: 18px;
   list-style-type: none;
-  margin-right: 20px;
 }
 
 .main-header {
-  margin: 150px 65px;
+  padding: 10rem 5rem;
   font-size: 120px;
   text-transform: uppercase;
 }
 
 .mini-workouts {
   position: absolute;
-  right: 20px;
-  top: 568px;
+  right: 25%;
+  top: 50%;
   font-size: 20px;
-  background-color: #e6533c;
+  background-color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
   text-align: center;
   padding: 50px;
   border-radius: 10px;
@@ -39,10 +35,11 @@
 
 .mini-programs {
   position: absolute;
-  right: 20px;
-  top: 365px;
+  right: 15%;
+  top: 35%;
   font-size: 20px;
-  background-color: #303030;
+  background-color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
   text-align: center;
   padding: 50px;
   border-radius: 10px;
@@ -50,17 +47,23 @@
 
 .mini-exercise {
   position: absolute;
-  right: 20px;
-  top: 179px;
+  right: 5%;
+  top: 20%;
   font-size: 20px;
-  background-color: #ef8964;
+  background-color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
   text-align: center;
   padding: 50px;
   border-radius: 10px;
 }
 
+.text {
+  font-weight: 600;
+  background-color: transparent;
+}
+
 .description {
-  color: #efede8a6;
+  color: #bbb;
   width: 650px;
   font-size: 20px;
 }

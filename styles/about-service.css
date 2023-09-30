@@ -6,33 +6,25 @@
 
 .about-service p {
   font-size: 20px;
-  color: #efede8a6;
+  color: #bbb;
   margin-bottom: 50px;
 }
 
 .service-list {
   display: grid;
+  gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .service-card {
-  width: 350px;
   height: 300px;
   border-radius: 10px;
-  background-color: #323443;
-  margin-bottom: 50px;
+  border-color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
-}
-
-.service-card h3 {
-  padding: 30px;
-  background-color: transparent;
-}
-
-.service-card p {
-  padding: 30px;
-  background-color: transparent;
+  gap: 2rem;
 }
 
 @media (min-width: 540px) {

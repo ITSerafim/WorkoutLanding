@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Nunito+Sans:wght@400;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 
 *,
 *::after,
@@ -6,13 +6,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #171717;
+  background-color: #212123;
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  color: #fafaf9;
-  font-size: 18px;
+  font-family: "Gilroy-Regular", sans-serif;
+  cursor: default;
+  color: #fff;
+  font-size: 16px;
 }
 
 .container {
@@ -29,7 +30,8 @@ body {
 }
 
 .link:hover {
-  color: #ef8964;
+  color: #3596fe;
+  filter: drop-shadow(0px 4px 24px rgba(53, 150, 254, 0.48));
 }
 
 .register-link {

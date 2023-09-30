@@ -11,7 +11,7 @@
     <header>
       <nav class="navbar">
         <h2 class="navbar-logo"><a href="/" class="link">Workout.online</a></h2>
-        <ul class="navbar-list">
+        <ul class="flex items-center gap-2">
           <li class="navbar-list-item">
             <a href="#service" class="link">О сервисе</a>
           </li>
@@ -26,13 +26,13 @@
       <div class="main-header">
         <h1>Workout Online</h1>
         <div class="mini-workouts">
-          <a href="" class="link">Тренировки</a>
+          <p class="text">Тренировки</p>
         </div>
         <div class="mini-exercise">
-          <a href="" class="link">Упражнения</a>
+          <p class="text">Упражнения</p>
         </div>
         <div class="mini-programs">
-          <a href="" class="link">Программы</a>
+          <p class="text">Программы</p>
         </div>
         <div class="description">
           Добро пожаловать! Перед вами Workout Online/CRM - платформа для
@@ -114,7 +114,7 @@
           </p>
         </div>
         <div class="platform-img">
-          <img src="./images/image.png" alt="" />
+          <img src="./images/prototype.png" alt="" />
         </div>
       </div>
     </section>
@@ -129,19 +129,25 @@
       5. Есть ли мобильное приложение ?
     -->
 
-    <section class="container fast-form" id="form">
-      <h2>Форма обратной связи</h2>
-      <p>
-        Если у вас возник вопрос, заполните форму ниже и мы постараемся вам
-        помочь. Об ошибках лучше сообщать в чат тех.поддержки (CRM)
-      </p>
+    <section class="container flex-col gap-4" id="form">
+      <div class="flex-col gap-1">
+        <h2 class="form-title">Форма обратной связи</h2>
+        <p class="form-description">
+          Если у вас возник вопрос, заполните форму ниже и мы постараемся вам
+          помочь. Об ошибках лучше сообщать в чат тех.поддержки (CRM)
+        </p>
+      </div>
 
-      <form>
-        <div class="input">
-          <input type="text" placeholder="Введите имя:" id="name" />
-        </div>
+      <form class="flex-col gap-1 wp-8 m-auto">
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Введите имя:"
+          id="name"
+        />
+
         <textarea
-          class="form-message"
+          class="form-control textarea"
           id="message"
           rows="10"
           placeholder="Введите сообщение:"

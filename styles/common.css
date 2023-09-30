@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 1.5rem;
+}
+
+.gap-3 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 3rem;
+}
+
+.wp-8 {
+  width: 80%;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
